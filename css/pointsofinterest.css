@@ -1,0 +1,17 @@
+@charset "utf-8";
+.pointsofinterest{margin: 25px auto; width: 660px; font-family: Verdana, Geneva, sans-serif; font-size: 13px; color: #333333; height: 525px; height: 500px; overflow: hidden; margin-bottom: 25px;}
+.pointsofinterest h3{margin: 0px; font-size: 24px; text-transform: uppercase; padding: 0px;}
+.pointsofinterest img{position: absolute; z-index: 1; margin: 0px;}
+.pointsofinterest ul, .pointsofinterest li{margin: 0px; padding: 0px; position: absolute;}
+.pointsofinterest ul li{list-style-type: none;}
+.x, .y{display: none;}
+.poi_points  li{z-index: 1000; background: url(../images/whiteTrans.png);padding: 10px; cursor: pointer; width: 75px; text-align: center; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;-moz-box-shadow: 0px 0px 10px #666; box-shadow: 0px 0px 10px #666; -webkit-box-shadow: 0px 0px 10px #666;}
+.poi_contents li{z-index: 1001; display: none; width: 300px; background: #ffffff; padding: 10px; -moz-box-shadow: 0px 0px 10px #666; box-shadow: 0px 0px 10px #666; -webkit-box-shadow: 0px 0px 10px #666;}
+
+.poi_arrow{display: block; position: absolute; z-index: 1001;}
+.arrow_left{height: 60px; width: 27px; background: url(../images/arrow_left.png); margin-left: -37px;}
+.arrow_right{height: 60px; width: 27px; background: url(../images/arrow_right.png);}
+
+.poi_close{position: absolute; margin-top: -25px; display: block; width: 30px; height: 30px; background: url(../images/close.png); cursor: pointer;}
+.close_left{margin-left: 300px;}
+.close_right{margin-left: -30px;}
